@@ -1,0 +1,15 @@
+body {
+	margin: 20px;
+	border-top: 5px solid #EEEEEE;
+	padding: 30px;
+}
+
+.search {
+	width: 100%;
+}
+
+.quote {
+	border-left: 4px solid #EEEEEE;
+	padding: 5px 20px;
+	margin: 5px;
+}

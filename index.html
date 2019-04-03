@@ -5,24 +5,94 @@
         <title>Wild & Wacky Vegetables</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+    <div class="row">
+        <div class="col-3">
+            <h4>Some Favorites</h4>
 
-        <h1>Some Favorites</h1>
-        <ul>
-            <li><a href="#">Celery Root</a>
-            <li><a href="#">Spaghetti Squash</a>
-            <li><a href="#">Killer Mushrooms</a>
-        </ul>
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Celery Root</a>
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Spaghetti Squash</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Killer Mushrooms</a>
 
-        <h1>Wild & Wacky Vegetables</h1>
-        <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
-        </p>
-        <p>
-            Mung bean quandong kale prairie turnip celery gram zucchini pumpkin green bean silver beet chard endive komatsuna eggplant kakadu plum radish broccoli. Arugula amaranth fennel wakame peanut garlic chickweed. Sorrel jícama quandong kale chickpea water chestnut rock melon aubergine lettuce pea azuki bean cress onion sea lettuce dandelion nori dulse rutabaga. Coriander napa cabbage bok choy carrot kakadu plum brussels sprout bamboo shoot salad okra cucumber garlic kombu beet greens cauliflower summer purslane. Artichoke daikon horseradish arugula taro catsear kombu rock melon pea sprouts collard greens mustard courgette lettuce soko maize plantain.
-        </p>
+            </div>
+
+                <input class="search" type="text"></input>
+                <input class="btn btn-primary"type="submit" value="Search Recipes"></input>
+            </ul>
+        </div>
+        <div class="col-9">
+
+            <div class="alert alert-danger" role="alert">
+                <b>Uh oh!</b> Have you had your daily dose of veggies today??
+            </div>
+
+            <h1>Wild & Wacky Vegetables</h1>
+                <div class="quote">
+                    <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
+                    </p>
+                    Tom Robbins
+                </div>
+                <p>
+                    Mung bean quandong kale prairie turnip celery gram zucchini pumpkin green bean silver beet chard endive komatsuna eggplant kakadu plum radish broccoli. Arugula amaranth fennel wakame peanut garlic chickweed. Sorrel jícama quandong kale chickpea water chestnut rock melon aubergine lettuce pea azuki bean cress onion sea lettuce dandelion nori dulse rutabaga. Coriander napa cabbage bok choy carrot kakadu plum brussels sprout bamboo shoot salad okra cucumber garlic kombu beet greens cauliflower summer purslane. Artichoke daikon horseradish arugula taro catsear kombu rock melon pea sprouts collard greens mustard courgette lettuce soko maize plantain.
+                </p>
+
+            <h2>Some diseases</h2>
+                <table class="table table-striped table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col">Veggie</th>
+                          <th scope="col">Disease</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Beets</td>
+                          <td>Beeturia</td>
+                        </tr>
+                        <tr>
+                          <td>Carrots</td>
+                          <td>Carotenesis</td>
+                      </tbody>
+                    </table>
+
+            <div class="card-group">
+                  <div class="card">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Beets</h5>
+                      <p class="card-text">Careful not to get your hands dirty.</p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://www.organicfacts.net/wp-content/uploads/storecarrots.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Carrots</h5>
+                      <p class="card-text">Blah</p>
+                    </div>
+                    </div>
+
+                  <div class="card">
+                    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/6/12/1/IG0501_31034_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384540892237.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Asparagus</h5>
+                      <p class="card-text">Spears, spears, spears.</p>
+                    </div>
+                  </div>
+
+
+
+            </div>
+    <h2>Really Informative Info</h2>
+
+
+
+        </div>
+    </div>
 
     </body>
 </html>
